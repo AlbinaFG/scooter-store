@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-trans - начни двигаться по новому</title>
+    <link rel="stylesheet" href="./style/index.css">
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
         <img class="header__logo" src="./img/logo.svg" alt="Логотип E-trans" />
         <nav class="header__navigation navigation">
           <ul class="navigation__list">
@@ -68,13 +69,14 @@
               ряд гироскопических датчиков для самобалансировки и поддержания
               горизонтального положения площадки для ног.
             </p>
-            <button class="product_btn">Выбрать</button>
+            <button class="product__btn">Выбрать</button>
           </div>
         </div>
       </section>
 
       <section class="product" id="monowheels">
         <div class="container product__container">
+          <img src="./img/monowheels.png" alt="Моноколесо" />
           <div class="product__content">
             <h2 class="product__title">Моноколесо</h2>
             <p class="product_description">
@@ -85,9 +87,9 @@
               колёсами, расположенными по обе стороны от водителя, внешне
               напоминающее колесницу. Изобретено Шейном Ченом.
             </p>
-            <button class="product_btn">Выбрать</button>
+            <button class="product__btn">Выбрать</button>
           </div>
-          <img src="./img/monowheels.png" alt="Моноколесо" />
+        
         </div>
       </section>
 
@@ -104,12 +106,12 @@
               колёсами, расположенными по обе стороны от водителя, внешне
               напоминающее колесницу. Изобретено Шейном Ченом.
             </p>
-            <button class="product_btn">Выбрать</button>
+            <button class="product__btn">Выбрать</button>
           </div>
         </div>
       </section>
 
-      <section class="conacts">
+      <section class="conacts contacts_section">
         <div class="container">
           <h2 class="contacts__title">Как нас найти?</h2>
         </div>
@@ -201,7 +203,8 @@
     </main>
 
     <footer class="footer">
-      <img class="footer__logo" src="./img/logo.svg" alt="Логотип E-trans" />
+      <div class="container">
+        <img class="footer__logo" src="./img/logo.svg" alt="Логотип E-trans" />
       <div class="footer__columns">
         <div class="footer__column">
           <ul class="footer_list">
@@ -274,6 +277,8 @@
       </div>
 
       <p class="footer__copyright">© E-Trans, 2022</p>
+      </div>
+      
     </footer>
   </body>
 </html>
